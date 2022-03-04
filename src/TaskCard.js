@@ -11,13 +11,11 @@ function TaskCard({listOfTasks, setListOfTasks}) {
   const takCardStyle = makeStyles(()=>({
     taskCard: {
       width: '50%',
-      boxShadow: '10px',
       borderRadius: '10px',
       display: 'flex',
-      margin: 'auto',
       padding: '20px',
-      margin: '15px',
       backgroundColor: 'white',
+      margin: '15px',
       flexDirection: 'column',
       justifyContent: 'center',
       alignItems: 'center',
